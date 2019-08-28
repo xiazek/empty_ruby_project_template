@@ -14,7 +14,7 @@ Setting up common configurations for :
 Export this repo 
 
 ```bash
-git export github.com/xiazek/clean_ruby_project_template name_of_your_new_project 
+git clone git@github.com:xiazek/empty_ruby_project_template.git name_of_your_new_project 
 cd name_of_your_new_project
 ruby -v
 gem update --system 
