@@ -14,7 +14,7 @@ Setting up common configurations for :
 Export this repo 
 
 ```bash
-git clone git@github.com:xiazek/empty_ruby_project_template.git name_of_your_new_project 
+git clone git@github.com:xiazek/empty_ruby_project_template.git name_of_your_new_project --origin empty_ruby_project_template 
 cd name_of_your_new_project
 ruby -v
 gem update --system 
@@ -22,7 +22,5 @@ gem update --system
 gem install bundler
 bundle install
 rspec spec  
-git init .
-git commit -m "Fresh project from xiazek's template"
 ```  
  
